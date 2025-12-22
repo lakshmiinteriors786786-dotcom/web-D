@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">amazon</h2>
+  <input type="text" placeholder="Search products">
+  <a href="cart.html" class="cart-btn">Cart 🛒</a>
+</header>
+
+<section class="products">
+  <div class="product">
+    <img src="HEADPHONE.jpg">
+    <h3>Wireless Headphones</h3>
+    <p>₹1999</p>
+    <button onclick="addToCart('Wireless Headphones',1999)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="SMART WATCH.jpg">
+    <h3>Smart Watch</h3>
+    <p>₹2999</p>
+    <button onclick="addToCart('Smart Watch',2999)">Add to Cart</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
